@@ -1,0 +1,45 @@
+.navbar-fixed-side {
+    color: #FFF;
+    background-color: black;
+}
+.navbar-img {
+    height: 165px;
+    width: 165px;
+    opacity: 0.5;
+}
+
+.navbar-img:hover {
+    opacity: 1;
+}
+
+form {
+    color: grey;
+}
+
+.underline {
+    color: #41A62A;
+    text-decoration: underline;
+}
+
+h6 {
+    font-weight: bold;
+}
+/* vert 41A62A*/
+
+footer {
+    background-color: black;
+    width: 100%
+}
+
+footer a {
+    color: dimgrey;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #41A62A;
+    text-decoration: none;
+}
