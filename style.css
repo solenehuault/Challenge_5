@@ -133,4 +133,8 @@ body {
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
+
+.navbar-img {
+    height: 165px;
+    width: 165px;
 }
