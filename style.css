@@ -145,21 +145,17 @@ body {
     color: #FFF;
     background-color: black;
     padding: 10px 0 10px 40px;
-    
+    height: 100%;
 
 }
 
 .nav > li > a {
     padding: 0;
 }
+
 .navbar-img {
     height: 165px;
-    width: 90%;
-    opacity: 0.5;
-}
-
-.navbar-img:hover {
-    opacity: 1;
+    width: 165px;
 }
 
 
@@ -175,7 +171,6 @@ form {
 h6 {
     font-weight: bold;
 }
-/* vert 41A62A*/
 
 footer {
     background-color: black;
@@ -190,11 +185,32 @@ a {
     color: white;
 }
 
+.audio {
+    color: #41A62A;
+    text-decoration: underline;
+}
+
 a:hover {
     color: #41A62A;
     text-decoration: none;
 }
+
 .navbar-col {
-        display: flex;
+    display: flex;
     flex-direction: column;
+}
+
+.nav-bar-img-footer {
+    color: grey;
+    font-style: italic;
+    padding: 5px;
+}
+
+.nav-list {
+    color: white;
+    padding: 10px;
+}
+
+.nav-list:hover {
+    background-color: forestgreen;
 }
