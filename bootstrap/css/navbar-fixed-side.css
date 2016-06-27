@@ -3,7 +3,7 @@
 .navbar-fixed-side {
   @media (max-width: $grid-float-breakpoint) {
     margin-left: -15px;
-    margin-right: -15px;
+    /*margin-right: -15px;*/
   }
 
   @media (min-width: $grid-float-breakpoint) {
@@ -12,8 +12,8 @@
     $navbar-inverse-border: lighten($navbar-inverse-bg, 8%);
 
     position: fixed;
-    margin: 0 -15px;
-    height: 100vh;
+    margin: 0 /*-15px*/;
+    /*height: 100vh;*/
     width: inherit;
     overflow: auto;
     border-top-width: 0;

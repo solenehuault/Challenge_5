@@ -1,4 +1,8 @@
-.right {
+.container-fluid {
+    margin: 0 auto;
+    padding: 0;
+}
+    .right {
     float: right;   
 }
 body {
@@ -140,16 +144,24 @@ body {
 .navbar-fixed-side {
     color: #FFF;
     background-color: black;
+    padding: 10px 0 10px 40px;
+    
+
+}
+
+.nav > li > a {
+    padding: 0;
 }
 .navbar-img {
     height: 165px;
-    width: 165px;
+    width: 90%;
     opacity: 0.5;
 }
 
 .navbar-img:hover {
     opacity: 1;
 }
+
 
 form {
     color: grey;
@@ -181,4 +193,8 @@ a {
 a:hover {
     color: #41A62A;
     text-decoration: none;
+}
+.navbar-col {
+        display: flex;
+    flex-direction: column;
 }
